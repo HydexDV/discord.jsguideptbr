@@ -48,10 +48,15 @@ client.on("message", async message => {
   let messageArray = message.content.split(" ");
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
-
+  
+//Seus comandos iram aqui 
 
 });
 client.login("TOKEN DO SEU BOT");
 ```
 
 # Usando o Visual Studio Code
+Abra a pasta no qual criou os arquivos do bot!
+![Alt text](https://cdn.discordapp.com/attachments/682602203374157886/682711931064287334/unknown.png "Title")
+Selecione o arquivo index.js
+![Alt text](https://cdn.discordapp.com/attachments/682602203374157886/682712117249441813/unknown.png "Title")

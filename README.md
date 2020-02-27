@@ -74,3 +74,5 @@ node .
 ```
 Caso apareça essa mensagem você conseguiu colocar seu bot online!
 ![Alt text](https://cdn.discordapp.com/attachments/682602203374157886/682713077523021857/unknown.png "Title")
+
+# PROXIMO TUTORIAL: SEUS PRIMEIROS COMANDOS

@@ -1,2 +1,3 @@
-# discord.jsguideptbr
-💻 Aprenda a fazer seu bot em discord.js (INICIANTE)
+# Como posso fazer meu primeiro bot?
+
+- É necessario instalar um editor de texto com terminal (EX: VS Code)

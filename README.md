@@ -17,3 +17,39 @@ Execute o setup e siga as instruções!
 
 Crie os arquivos necessario para começar a programar o seu bot.
 ![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682609370244055055/unknown.png "Title")
+##### Adicione esse text no package.json
+```json
+{
+    "name": "nomdedoseubot",
+    "version": "1.0.0",
+    "description": "descricao",
+    "main": "index.js",
+    "scripts": {
+    },
+    "author": "",
+    "dependencies": {
+      "discord.js": "^11.3.2"
+    }
+  }
+```
+
+### Adicione isso ao index.js 
+```js
+const Discord = require("discord.js");
+const client = new Discord.Client();
+const talkedRecently = new Set();
+
+client.on("ready", () => {
+  console.log(
+    `---------------------------------\n BOT ONLINE \n---------------------------------`
+  );
+});
+client.on("message", async message => {
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
+
+
+});
+client.login("TOKEN DO SEU BOT");
+```

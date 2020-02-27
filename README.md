@@ -33,7 +33,7 @@ Crie os arquivos necessario para começar a programar o seu bot.
   }
 ```
 
-### Adicione isso ao index.js 
+##### Adicione isso ao index.js 
 ```js
 const Discord = require("discord.js");
 const client = new Discord.Client();
@@ -53,3 +53,5 @@ client.on("message", async message => {
 });
 client.login("TOKEN DO SEU BOT");
 ```
+
+# Usando o Visual Studio Code
